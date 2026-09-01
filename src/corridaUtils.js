@@ -152,7 +152,7 @@ class CorridaUtils {
   analisarDesempenho(posicao, posicoesGanhas) {
     if (posicao === 1) return "Vitória dominante";
     if (posicao <= 3) return "Pódio garantido";
-    if (posicoesGanhas >= 5) return "Ótima corrida de recuperação";s
+    if (posicoesGanhas >= 5) return "Ótima corrida de recuperação";
     if (posicoesGanhas < 0) return "Desempenho abaixo do esperado";
     return "Corrida regular";
   }
